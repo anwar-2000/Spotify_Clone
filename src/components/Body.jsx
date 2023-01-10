@@ -152,7 +152,8 @@ const Container = styled.div`
           padding : 1rem 3rem;
           top: 15vh;
           transition: 0.3s ease-in-out;
-          background-color: ${({HeaderBackground}) => HeaderBackground ? "#000000dc" : "none"} ;
+          /*background-color: ${({HeaderBackground}) => HeaderBackground ? "#000000dc" : "none"} ;*/
+          background-color: "none";
         }
 
         .tracks {

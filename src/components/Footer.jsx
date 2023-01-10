@@ -4,6 +4,7 @@ import CurrentTrack from './CurrentTrack'
 import {useStateProvider} from '../utils/StateProvider'
 import axios from 'axios'
 import { reducerCases } from '../utils/Constants'
+import PlayerControls from './PlayerControls'
 export default function Footer() {
   const [{token},dispatch] = useStateProvider()
   useEffect(()=>{
@@ -29,6 +30,7 @@ export default function Footer() {
   return (
     <Container>
         <CurrentTrack />
+        <PlayerControls />
     </Container>
   )
 }
